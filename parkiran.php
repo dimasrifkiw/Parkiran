@@ -11,9 +11,9 @@
         
         <label for="jenis_kendaraan">Jenis Kendaraan:</label>
         <select name="jenis_kendaraan" id="jenis_kendaraan" required>
-            <option value="motor">Motor</option>
-            <option value="mobil">Mobil</option>
-            <option value="sepeda">Sepeda</option>
+            <option value="motor">Motor (Rp 3,000 per jam)</option>
+            <option value="mobil">Mobil (Rp 5,000 per jam)</option>
+            <option value="sepeda">Sepeda (Rp 2,000 per jam)</option>
         </select><br><br>
         
         <label for="jam_masuk">Jam Masuk (hh:mm):</label>
@@ -63,7 +63,6 @@
         echo "Jam Masuk: " . $jam_masuk . "<br>";
         echo "Jam Keluar: " . $jam_keluar . "<br>";
         echo "Biaya Parkir: Rp " . $total_biaya . "<br>";
-   
     }
     ?>
 </body>
